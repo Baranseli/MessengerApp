@@ -21,9 +21,17 @@ class AuthVC: UIViewController {
         
     }
     
-
+// 016 to change the window by present
+    @IBAction func signInWithEmailBtnPressed(_ sender: Any) {
+        let loginVC = storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+        present(loginVC!, animated: true, completion: nil)
+    }
     
+    @IBAction func googleSignInBtnPressed(_ sender: Any) {
+    }
     
+    @IBAction func faceBookSignInBtnPressed(_ sender: Any) {
+    }
     
     
 

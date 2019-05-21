@@ -8,6 +8,7 @@
 
 import Foundation
 import Firebase
+import FirebaseAuth
 
 // 012 create a class for AuthService
 class AuthService {
@@ -31,10 +32,11 @@ class AuthService {
     // 014 func for login user
     func loginUser(withEmail email: String, andPassword password: String, loginComplete: @escaping(_ status: Bool, _ error: Error?) -> ()) {
         Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
-            guard let user = authResult?.user else {
+            if error != nil {
                 loginComplete(false, error)
                 return
             }
+            
             loginComplete(true, nil)
         }
     }
