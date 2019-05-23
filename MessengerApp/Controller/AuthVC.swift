@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 
 
@@ -20,6 +22,15 @@ class AuthVC: UIViewController {
 
         
     }
+    // 035
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+            dismiss(animated: true, completion: nil)
+        }
+    }
+    
+    
     
 // 016 to change the window by present
     @IBAction func signInWithEmailBtnPressed(_ sender: Any) {

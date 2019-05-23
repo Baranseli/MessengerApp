@@ -14,7 +14,12 @@
 		070F72FD229348610076F79E /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F72FC229348610076F79E /* ShadowView.swift */; };
 		070F72FF22934DAD0076F79E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F72FE22934DAD0076F79E /* AuthService.swift */; };
 		0714CD9A2294B38C00FA605C /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714CD992294B38C00FA605C /* MeVC.swift */; };
+		07328B2B2295D6FA0031A70F /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07328B2A2295D6FA0031A70F /* CreatePostVC.swift */; };
+		07328B2D2295E0AE0031A70F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07328B2C2295E0AE0031A70F /* UIViewExtension.swift */; };
 		077C0C4922920B6600E1AB28 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C0C4822920B6600E1AB28 /* DataService.swift */; };
+		07823A262295EE1D009F47B1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07823A252295EE1D009F47B1 /* FeedCell.swift */; };
+		07875E7E22974C1700D73B84 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */; };
+		07875E802297508500D73B84 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875E7F2297508500D73B84 /* UserCell.swift */; };
 		07E86AE02292021F00BAF46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86ADF2292021F00BAF46D /* AppDelegate.swift */; };
 		07E86AE22292021F00BAF46D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86AE12292021F00BAF46D /* FeedVC.swift */; };
 		07E86AE42292021F00BAF46D /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86AE32292021F00BAF46D /* GroupsVC.swift */; };
@@ -22,6 +27,7 @@
 		07E86AE92292022300BAF46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E86AE82292022300BAF46D /* Assets.xcassets */; };
 		07E86AEC2292022300BAF46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E86AEA2292022300BAF46D /* LaunchScreen.storyboard */; };
 		07E86AF9229207AE00BAF46D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07E86AF8229207AD00BAF46D /* GoogleService-Info.plist */; };
+		07FBC4C822971569000AC4B4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FBC4C722971569000AC4B4 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +37,12 @@
 		070F72FC229348610076F79E /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		070F72FE22934DAD0076F79E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		0714CD992294B38C00FA605C /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		07328B2A2295D6FA0031A70F /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		07328B2C2295E0AE0031A70F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		077C0C4822920B6600E1AB28 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		07823A252295EE1D009F47B1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		07875E7F2297508500D73B84 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		07E86ADC2292021F00BAF46D /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E86ADF2292021F00BAF46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E86AE12292021F00BAF46D /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -41,6 +52,7 @@
 		07E86AEB2292022300BAF46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07E86AED2292022300BAF46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E86AF8229207AD00BAF46D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07FBC4C722971569000AC4B4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		62B39626EB9242FBB54AA1AB /* Pods-MessengerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerApp.debug.xcconfig"; path = "Target Support Files/Pods-MessengerApp/Pods-MessengerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8D9613F6A3D429E86871697A /* Pods-MessengerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerApp.release.xcconfig"; path = "Target Support Files/Pods-MessengerApp/Pods-MessengerApp.release.xcconfig"; sourceTree = "<group>"; };
 		9D6A05F7DBE9AF6E6C4EF26A /* Pods_MessengerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +123,8 @@
 				070F72F622933E630076F79E /* AuthVC.swift */,
 				070F72F822933F0F0076F79E /* LoginVC.swift */,
 				0714CD992294B38C00FA605C /* MeVC.swift */,
+				07328B2A2295D6FA0031A70F /* CreatePostVC.swift */,
+				07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,6 +134,8 @@
 			children = (
 				070F72FA22933FC20076F79E /* InsetTextField.swift */,
 				070F72FC229348610076F79E /* ShadowView.swift */,
+				07823A252295EE1D009F47B1 /* FeedCell.swift */,
+				07875E7F2297508500D73B84 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +143,7 @@
 		07E86AF52292065400BAF46D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07FBC4C722971569000AC4B4 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,6 +151,7 @@
 		07E86AF62292067700BAF46D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				07328B2C2295E0AE0031A70F /* UIViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -283,15 +301,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0714CD9A2294B38C00FA605C /* MeVC.swift in Sources */,
+				07823A262295EE1D009F47B1 /* FeedCell.swift in Sources */,
 				070F72F722933E630076F79E /* AuthVC.swift in Sources */,
 				07E86AE42292021F00BAF46D /* GroupsVC.swift in Sources */,
 				070F72F922933F0F0076F79E /* LoginVC.swift in Sources */,
 				070F72FF22934DAD0076F79E /* AuthService.swift in Sources */,
 				07E86AE02292021F00BAF46D /* AppDelegate.swift in Sources */,
+				07875E7E22974C1700D73B84 /* CreateGroupsVC.swift in Sources */,
+				07875E802297508500D73B84 /* UserCell.swift in Sources */,
+				07328B2D2295E0AE0031A70F /* UIViewExtension.swift in Sources */,
 				070F72FD229348610076F79E /* ShadowView.swift in Sources */,
+				07328B2B2295D6FA0031A70F /* CreatePostVC.swift in Sources */,
 				07E86AE22292021F00BAF46D /* FeedVC.swift in Sources */,
 				070F72FB22933FC20076F79E /* InsetTextField.swift in Sources */,
 				077C0C4922920B6600E1AB28 /* DataService.swift in Sources */,
+				07FBC4C822971569000AC4B4 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
