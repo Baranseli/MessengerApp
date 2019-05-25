@@ -20,6 +20,11 @@
 		07823A262295EE1D009F47B1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07823A252295EE1D009F47B1 /* FeedCell.swift */; };
 		07875E7E22974C1700D73B84 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */; };
 		07875E802297508500D73B84 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875E7F2297508500D73B84 /* UserCell.swift */; };
+		07A48A67229884A900AD61E9 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A48A66229884A900AD61E9 /* GroupCell.swift */; };
+		07A48A692298897900AD61E9 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A48A682298897900AD61E9 /* Group.swift */; };
+		07A48A6B229892BE00AD61E9 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A48A6A229892BE00AD61E9 /* GroupFeedCell.swift */; };
+		07A48A6D2298935F00AD61E9 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A48A6C2298935F00AD61E9 /* GroupFeedVC.swift */; };
+		07A48A6F2298C05900AD61E9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A48A6E2298C05900AD61E9 /* UIViewControllerExtension.swift */; };
 		07E86AE02292021F00BAF46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86ADF2292021F00BAF46D /* AppDelegate.swift */; };
 		07E86AE22292021F00BAF46D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86AE12292021F00BAF46D /* FeedVC.swift */; };
 		07E86AE42292021F00BAF46D /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E86AE32292021F00BAF46D /* GroupsVC.swift */; };
@@ -43,6 +48,11 @@
 		07823A252295EE1D009F47B1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		07875E7F2297508500D73B84 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		07A48A66229884A900AD61E9 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		07A48A682298897900AD61E9 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		07A48A6A229892BE00AD61E9 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		07A48A6C2298935F00AD61E9 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		07A48A6E2298C05900AD61E9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		07E86ADC2292021F00BAF46D /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E86ADF2292021F00BAF46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E86AE12292021F00BAF46D /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 				0714CD992294B38C00FA605C /* MeVC.swift */,
 				07328B2A2295D6FA0031A70F /* CreatePostVC.swift */,
 				07875E7D22974C1700D73B84 /* CreateGroupsVC.swift */,
+				07A48A6C2298935F00AD61E9 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -136,6 +147,8 @@
 				070F72FC229348610076F79E /* ShadowView.swift */,
 				07823A252295EE1D009F47B1 /* FeedCell.swift */,
 				07875E7F2297508500D73B84 /* UserCell.swift */,
+				07A48A66229884A900AD61E9 /* GroupCell.swift */,
+				07A48A6A229892BE00AD61E9 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				07FBC4C722971569000AC4B4 /* Message.swift */,
+				07A48A682298897900AD61E9 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				07328B2C2295E0AE0031A70F /* UIViewExtension.swift */,
+				07A48A6E2298C05900AD61E9 /* UIViewControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -303,11 +318,16 @@
 				0714CD9A2294B38C00FA605C /* MeVC.swift in Sources */,
 				07823A262295EE1D009F47B1 /* FeedCell.swift in Sources */,
 				070F72F722933E630076F79E /* AuthVC.swift in Sources */,
+				07A48A67229884A900AD61E9 /* GroupCell.swift in Sources */,
 				07E86AE42292021F00BAF46D /* GroupsVC.swift in Sources */,
+				07A48A6F2298C05900AD61E9 /* UIViewControllerExtension.swift in Sources */,
 				070F72F922933F0F0076F79E /* LoginVC.swift in Sources */,
+				07A48A6D2298935F00AD61E9 /* GroupFeedVC.swift in Sources */,
+				07A48A6B229892BE00AD61E9 /* GroupFeedCell.swift in Sources */,
 				070F72FF22934DAD0076F79E /* AuthService.swift in Sources */,
 				07E86AE02292021F00BAF46D /* AppDelegate.swift in Sources */,
 				07875E7E22974C1700D73B84 /* CreateGroupsVC.swift in Sources */,
+				07A48A692298897900AD61E9 /* Group.swift in Sources */,
 				07875E802297508500D73B84 /* UserCell.swift in Sources */,
 				07328B2D2295E0AE0031A70F /* UIViewExtension.swift in Sources */,
 				070F72FD229348610076F79E /* ShadowView.swift in Sources */,

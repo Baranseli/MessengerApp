@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseAuth
+
+
 
 class FeedVC: UIViewController {
 

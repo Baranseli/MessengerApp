@@ -8,6 +8,7 @@
 
 import Foundation
 import Firebase
+import FirebaseCore
 import FirebaseAuth
 
 // 012 create a class for AuthService

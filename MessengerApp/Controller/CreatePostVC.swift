@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseCore
 import FirebaseAuth
 
 class CreatePostVC: UIViewController {
@@ -26,7 +27,8 @@ class CreatePostVC: UIViewController {
         
         // 021
         textView.delegate = self
-        
+        //sendBtn.bindToKeyBoard()
+        //profileImage.bindToKeyboard()
        
     }
     
